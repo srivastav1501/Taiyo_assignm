@@ -43,11 +43,11 @@ const Task = () => {
                         well meaning and kindly sdfjlksdjf jslkdfj  jsdf sjgh lkjdf  lorem  kdsfkj sd
                     </Typography>
                 </CardContent>
-                <CardActions sx={{ position: 'relative'}}>
+                <CardActions >
                     <Button
                         variant='outlined'
                         onClick={handleClickOpen}
-                        size="small" sx={{position: 'absolute', left: 0, top: 3 }}>Edit</Button>
+                        size="small" >Edit</Button>
                 </CardActions>
             </Card>
             <Window close={handleClose} open={open} />
